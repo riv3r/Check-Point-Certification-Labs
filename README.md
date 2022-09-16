@@ -6,7 +6,8 @@ This repository contains lab topologies that the learner can use to prepare for 
 
 All lab exercises come directly from Check Point certification and learning documentation:
 
-| Certification  | Blueprint & Objectives Link |
+| Certification  | Check Point Training Brochure |
+|----------------|-----------------------------|
 | Check Point Certified Security Administrator (CCSA) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSA_Overview_Flyer.pdf) |
 | Check Point Certified Security Expert (CCSE) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSE_Overview_Flyer.pdf) |
 | Check Point Certified Automation Specialist (CCAS) | [link](https://www.checkpoint.com/downloads/training/CCAS-R80-x-course-overview.pdf) |
