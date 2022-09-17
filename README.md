@@ -17,14 +17,17 @@ All lab exercises come directly from Check Point certification and learning docu
 | Check Point Cloud Network Security Expert for AWS (CCNE AWS) | [link](https://www.checkpoint.com/downloads/training/CNSE-AWS-R81-Course-Overview_Flyer.pdf) |
 | Check Point Cloud Network Security Expert for Azure (CCNE Azure) | [link](https://www.checkpoint.com/downloads/training/CNSE-Azure-R81-Course-Overview_Flyer.pdf) |
 | Check Point Certified Multi-Domain Security Management Specialist (CCMS) | [link](https://www.checkpoint.com/downloads/training/CCMS-R80-x-course-overview.pdf) |
-| Check Point Certified Maestro Expert (CCME) | [link](https://www.checkpoint.com/downloads/training/maestro-course.pdf) |
 | Check Point Certified VSX Specialist (CCVS) | [link](https://www.checkpoint.com/downloads/training/CCVS-R80-x-course-overview.pdf) | 
+
+MAESTRO?
 
 <br />
 
 ## Disclaimer
 
-All lab topologies are free to use - updates, suggestions, and issues are welcomed to be lodged but will be actioned on a "best effort" basis.
+ether-net produced lab manuals are 100% free to use. Always. You can fork and modify all exercises to your heart's content.
+
+Detailed answer guides are coming soon as an optional paid resource through Leanpub while this repo is maintained.
 
 <br />
 

@@ -1,50 +1,124 @@
-# [ether-net] Check Point Certification Labs
+# [ether-labs] Check Point Certified Troubleshooting Associate (CCTA)
+
+**Status**\
+<span style="color:red">UNDER DEVELOPMENT<span>
+
+**Last Updated**\
+Friday 16th September 2022
+
+**Target GAIA Version**\
+R81.10
+
+<br />
+
+## DISCLAIMER - READ THIS IF YOU WANT LABS TO WORK
+
+By using any of the Terraform code in this repo you acknowledge that ether-net is not responsible for...:
+1. The accuracy of cost estimates
+2. Costs incurred by running these labs, including any unplanned costs
+3. Damages incurred if you build your infrastructure within a production cloud environment
+
+To prove that you have fully read, comprehended, and acknowledged this section you **must** change the `disclaimer_accepted` variable in tfvars.tf to `TRUE` for the Terraform build process to work.
+
+<br />
 
 ## Overview
+This repository provides learning labs for the Check Point Certified Troubleshooting Associate (CCTA) certification.
 
-This repository contains lab topologies that the learner can use to prepare for Check Point certification exams.
+You can find the official training brief [here](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTA-R81.10-V1.0.pdf).
 
-All lab exercises come directly from Check Point certification and learning documentation:
+ether-net produced lab manuals are 100% free to use. Always. You can fork and modify all exercises to your heart's content.
 
-| Certification  | Check Point Training Brochure |
-|----------------|-----------------------------|
-| Check Point Certified Security Administrator (CCSA) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSA_Overview_Flyer.pdf) |
-| Check Point Certified Security Expert (CCSE) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSE_Overview_Flyer.pdf) |
-| Check Point Certified Automation Specialist (CCAS) | [link](https://www.checkpoint.com/downloads/training/CCAS-R80-x-course-overview.pdf) |
-| Check Point Certified Troubleshooting Administrator (CCTA) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTA-R81.10-V1.0.pdf) |
-| Check Point Certified Troubleshooting Expert (CCTE) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTE-R81.10-V1.0.pdf) |
-| Check Point Certified Cloud Specialist (CCCS) | [link](https://www.checkpoint.com/downloads/training/CCCS-R81-course-overview.pdf) |
-| Check Point Cloud Network Security Expert for AWS (CCNE AWS) | [link](https://www.checkpoint.com/downloads/training/CNSE-AWS-R81-Course-Overview_Flyer.pdf) |
-| Check Point Cloud Network Security Expert for Azure (CCNE Azure) | [link](https://www.checkpoint.com/downloads/training/CNSE-Azure-R81-Course-Overview_Flyer.pdf) |
-| Check Point Certified Multi-Domain Security Management Specialist (CCMS) | [link](https://www.checkpoint.com/downloads/training/CCMS-R80-x-course-overview.pdf) |
-| Check Point Certified Maestro Expert (CCME) | [link](https://www.checkpoint.com/downloads/training/maestro-course.pdf) |
-| Check Point Certified VSX Specialist (CCVS) | [link](https://www.checkpoint.com/downloads/training/CCVS-R80-x-course-overview.pdf) | 
+Detailed answer guides are coming soon as an optional paid resource through Leanpub while this repo is maintained.
 
 <br />
 
-## Disclaimer
-
-All lab topologies are free to use - updates, suggestions, and issues are welcomed to be lodged but will be actioned on a "best effort" basis.
-
-<br />
-
-## General Pre-Requisites
-
-You will require a laptop or PC that has Terraform installed and configured to use with an AWS account.
-
-Need help with this? Check out [Hashicorp's AWS Get Started guide](https://learn.hashicorp.com/collections/terraform/aws-get-started)
+## Pre-Requisites
+The following are required or recommended:
+1. Check Point Certified Security Administrator (CCSA) or ideally Security Expert (CCSE) knowledge / equivalent experience
+2. Familiarity with bash and Linux fundamentals
+3. A device with Terraform installed and configured with AWS
 
 <br />
 
-## Cost Disclaimer
-
-These labs do not always leverage resources that are "free tier" eligible.
-
-Cost estimates and breakdowns are supplied in every lab in USD, however note that you, and you alone, are **fully responsible** for:
-* All costs incurred with labs
-* Verifying cost accuracies with each lab are accurate per the cloud service provider(s) current charge rates
-* Managing your lab and ensuring that provisioned resources are destroyed correctly.
-
-ether-net will not be held responsible for any costs incurred in running these labs.
+## CCTA Exam Domains
+Please note that Check Point do not release weightings for each domain.
+* Domain 1: Introduction to Troubleshooting
+* Domain 2: Fundamentals of Traffic Monitoring
+* Domain 3: SmartConsole and Policy Installation Troubleshooting
+* Domain 4: Identity Awareness Troubleshooting
+* Domain 5: Application Control and URL Filtering Troubleshooting
+* Domain 6: Troubleshooting Issues with Network Address Translation
+* Domain 7: Understanding Threat Prevention Policy
+* Domain 8: License and Contracts Troubleshooting
 
 <br />
+
+## CCTA Learning Objectives
+* Identify online resources for Check Point security products and solutions.
+* Demonstrate understanding of capture packet technologies.
+* Demonstrate understanding of Firewall chain modules, Kernel and User Mode, and Kernel and User Space.
+* Use Linux and Check Point utilities to review processes and system information.
+* Troubleshoot log collection issues and interrupted communications.
+* Monitor network activity and traffic flow.
+* Demonstrate understanding of Check Point SmartConsole and Policy installation.
+* Investigate and troubleshoot issues with Check Point SmartConsole and Policy installation.
+* Demonstrate understanding of Check Point Identity Awareness.
+* Investigate and troubleshoot issues with Check Point Identity Awareness.
+* Demonstrate understanding of Check Point Application Control and URL Filtering.
+* Investigate and troubleshoot issues with Check Point Application Control and URL Filtering.
+* Demonstrate understanding of Check Point Network Address Translation.
+* Investigate and troubleshoot issues with Check Point Network Address Translation.
+* Demonstrate understanding of Check Point Threat Prevention.
+* Investigate and troubleshoot issues with Check Point Threat Prevention.
+* Demonstrate understanding of Check Point licenses and contracts.
+* Investigate and troubleshoot Check Point licenses and contracts.
+
+<br />
+
+## Lab Cost Estimate
+
+TBA
+
+<br />
+
+## CCTA Labs
+There are TWO (2) types of labs:
+1. Certification Aligned = These are aligned with certification objectives
+2. Industry Skill = Labs focused on common real-world tasks a CCAS may perform - these are not necessarily required to prepare for the certification exam.
+
+| Lab ID  | Type | Description |
+|---------|------|-------------|----------------|
+| CCTA-01 | Certification Aligned | Using tcpdump and Wireshark | 
+| CCTA-02 | Certification Aligned | Viewing Firewall Chain Modules |
+| CCTA-03 | Certification Aligned | Using Basic Linux and Check Point Commands |
+| CCTA-04 | Certification Aligned | Troubleshooting Logging Communication Issues | 
+| CCTA-05 | Certification Aligned | Analyzing Traffic Captures |
+| CCTA-06 | Certification Aligned | Troubleshooting SmartConsole and Using SmartConsole Tools |
+| CCTA-07 | Certification Aligned | Troubleshooting Identity Awareness |
+| CCTA-08 | Certification Aligned | Troubleshooting Application Control and URL Filtering |
+| CCTA-09 | Certification Aligned | Investigating Network Address Translation Issues |
+| CCTA-10 | Certification Aligned | Evaluating Advanced Threat Prevention Products |
+| CCTA-11 | Certification Aligned | Verifying Licenses |
+| CCTA-12 | Industry Skill | Ticket #1 - Network Team Cannot Remotely Access Infrastructure |
+| CCTA-13 | Industry Skill | Ticket #2 - Security Operations Monitoring Failing |
+| CCTA-14 | Industry Skill | Ticket #3 - SmartConsole Performance Degradation Reported |
+| CCTA-15 | Industry Skill | Ticket #4 - Cannot Install New Access Control Policy |
+| CCTA-16 | Industry Skill | Ticket #5 - Users Cannot Access Fileshares |
+| CCTA-17 | Industry Skill | Ticket #6 - Traffic to O365 Sporadically Being Dropped |
+| CCTA-18 | Industry Skill | Ticket #7 - ClusterXL Sync Issues Detected |
+| CCTA-19 | Industry Skill | Ticket #8 - High CPU Utilisation Reported on Firewall |
+| CCTA-20 | Industry Skill | Ticket #9 - Replaced Check Point Appliance Not Enforcing Security Policy |
+| CCTA-21 | Industry Skill | Ticket #10 - Emergency Security Policy Unload Required |
+
+<br />
+
+## Lab Topology - Check Point
+
+Image Coming Soon!
+
+<br />
+
+## Lab Topology - AWS Architecture 
+
+Image Coming Soon!
