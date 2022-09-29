@@ -44,11 +44,14 @@ The following are required or recommended:
 
 ## CNSE-AWS Exam Domains
 Please note that Check Point do not release weightings for each domain.
-* Domain 1: x
-* Domain 2: x
-* Domain 3: x
-* Domain 4: x
-* Domain 5: x
+* Domain 1: Advanced Cloud Security
+* Domain 2: Cloud Management
+* Domain 3: Cloud Policy Design
+* Domain 4: Advanced Cloud Automation
+* Domain 5: Scaling Solutions
+* Domain 6: Clustering in CloudGuard
+* Domain 7: CloudGuard Use Cases
+* Domain 8: Advanced CloudGuard Troubleshooting
 
 <br />
 
