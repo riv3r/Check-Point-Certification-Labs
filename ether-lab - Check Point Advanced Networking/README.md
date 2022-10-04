@@ -228,7 +228,7 @@ TBA
 | **Chapter 17** | **Check Point Expert Mode** |
 | Lab 89 | Exploring Expert Mode |
 | **PART 9: INFRASTRUCTURE SERVICES**|
-| **Chapter 18* | **Check Point & Network Address Translation (NAT)** |
+| **Chapter 18** | **Check Point & Network Address Translation (NAT)** |
 | Lab 90 | Explore Impact NAT has on Traffic Processing |
 | Lab 91 | Hide NAT |
 | Lab 92 | Static NAT |
@@ -237,13 +237,13 @@ TBA
 | Lab 94 | DHCP Configuration |
 | Lab 95 | DHCP Relay Agents |
 | **PART 10: IPv6** |
-| **Chapter 16** | **IPv6 Overview** |
+| **Chapter 20** | **IPv6 Overview** |
 | Lab 96 | Configuring the IPv6 Lab |
 | Lab 97 | Enabling IPv6 Static Connectivity |
 | Lab 98 | Creating an IPv6 Access Control Policy |
 | Lab 99 | IPv6 Neighbour Discovery | 
 | Lab 100 | VRRPv3 |
-| **Chapter 17** | **IPv6 Routing Considerations** |
+| **Chapter 21** | **IPv6 Routing Considerations** |
 | Lab 101 | RIPng |
 | Lab 102 | OSPFv3 Overview & Differences |
 | Lab 103 | OSPFv3 IPSec Routing |
