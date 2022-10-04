@@ -111,143 +111,165 @@ TBA
 <br />
 
 ## Learning Topics & Labs
-| Chapter | Description |
+| ID | Description |
 |---------|-------------|
-| **PART 1: CHECK POINT ARCHITECTURE** |
-| 1 |**Check Point Architecture** |
-| 2 | **Understanding the Control, Data, and Management Planes** |
-| 3 | Lab 1: Provisioning the Lab Environment |
-| 4 | Lab 2: Configure Network Interfaces & Bonding |
-| 5 | Lab 3: Enable Discoverability with LLDP & ICMP RD |
-| 6 | Lab 4: Secure Internal Communications (SIC)
-| **PART 2: UNDERSTANDING TRAFFIC FLOWS** |
-| 7 | **How Layer 2 Impacts Security Management** |
-| 8 | Lab 5: Configuring VLANs |
-| 9 | Lab 6: Exploring ARP |
-| 10 | Lab 7: Exploring Suboptimal Traffic Forwarding Due to Layer 2 |
-| 11 | **Packet Processing Overview** |
-| 12 | Lab 8: Exploring SecureXL |
-| 13 | Lab 9: Exploring CoreXL |
-| 14 | **Packet Capturing Techniques** |
-| 15 | Lab 10: Packet Capturing - TCP Dump |
-| 16 | Lab 11: Packet Capturing - fw mon |
-| 17 | Lab 12: Identify Dropped Connections with Kernel Debug |
-| 18 | Lab 13: Traffic Mirroring & Decryption |
-| 19 | Lab 14: Analysing Traffic with NetFlow |
-| 20 | **Check Point VSX Overview** |
-| 21 | Lab 15: Using VSX to Extend a VRF across the Security Layer |
-| **PART 3: DESIGNING FOR REDUNDANCY** |
-| 22 | **Virtual Routing Redundancy Protocol (VRRP)** |
-| 23 | Lab 16: VRRP - Basic Configuration & Validation |
-| 24 | Lab 17: VRRP - Authentication |
-| 25 | Lab 18: VRRP - Advanced Topics |
-| 26 | **Check Point ClusterXL** |
-| 27 | Lab 19: ClusterXL - High Availability Mode |
-| 28 | Lab 20: ClusterXL - Load Sharing Unicast Mode | 
-| 29 | Lab 21: ClusterXL - Active-Active Mode |
-| 30 | **Check Point Maestro** |
-| **PART 4: ROUTING** |
-| 31 | **Routing Protocols & Tools** |
-| 32 | Lab 22: Exploring Limitation of Static Routes |
-| 33 | Lab 23: RIPv1 |
-| 34 | Lab 24: RIPv2 |
-| 35 | Lab 25: RIPng |
-| 36 | Lab 26: OSPF - Single Area Network |
-| 37 | Lab 27: OSPF - Multi Area Network |
-| 38 | Lab 28: OSPF - Area Types and Considerations |
-| 39 | Lab 39: OSPF - Virtual Links and GRE Tunnels |
-| 40 | Lab 30: OSPF - Exploring & Manipulating Path Selection |
-| 41 | Lab 31: OSPF - Authentication Methods |
-| 42 | Lab 32: OSPF - Aggregation |
-| 43 | Lab 33: OSPF - Redistribution |
-| 44 | Lab 34: OSPF - Filtering Techniques |
-| 45 | Lab 35: OSPFv3 Overview |
-| 46 | Lab 36: OSPF - Using the LSDB to Draw Network Diagrams |
-| 47 | Lab 37: BGP - Introduction & Basic Configuration |
-| 48 | Lab 38: BGP - eBGP |
-| 49 | Lab 39: BGP - Route Reflectors | 
-| 50 | Lab 40: BGP - Confederations |
-| 51 | Lab 41: BGP - Route Dampening |
-| 52 | Lab 42: BGP - Aggregation & Filtering |
-| 53 | Lab 43: BGP - IGP Redistribution Considerations |
-| 54 | Lab 44: BGP - TCP MD5 Authentication |
-| 55 | Lab 45: Policy Based Routing |
-| 56 | Lab 46: Bidirection Forwarding Detection (BFD) |
-| 57 | Lab 47: Multicast - IGMP |
-| 58 | Lab 48: Multicast - PIM Dense Mode |
-| 59 | Lab 49: Multicast - PIM Sparse Mode |
-| 60 | Lab 50: Multicast - PIM Source-Specific Multicast |
-| 61 | Lab 51: Multicast - ClusterXL Multicast Load Sharing |
-| 62 | Lab 52: Check Point - Protocol Ranking / Admin Distance |
-| 63 | Lab 53: Check Point - ECMP |
-| 64 | Lab 54: Check Point - Route Conflict Management |
-| 65 | Lab 55: Check Point - Multithreading the Routing Daemon |
-| 66 | Lab 56: Check Point - Exploring Route Injection Mechanism (RIM) |
-| 67 | Lab 57: Check Point - Logging & Debugging Routing Protocols |
-| 68 | Lab 58: ClusterXL Implications with Dynamic Routing Protocols |
-| **PART 5: VIRTUAL PRIVATE NETWORKS (VPNs)** |
-| 69 | **Check Point VPN Architecture & Types** |
-| 70 | Lab 59: Configuring the VPN Lab |
-| 71 | Lab 60: Exploring Impact VPNs have on Traffic Processing |
-| 72 | Lab 61: S2S VPN - Pure Check Point |
-| 73 | Lab 62: S2S VPN - Third Party (Cisco) |
-| 74 | Lab 63: Remote Access VPN - Access Policies |
-| 75 | Lab 64: Remote Access VPN - Hub Mode |
-| 76 | Lab 65: Remote Access VPN - Office Mode |
-| 77 | Lab 66: Remote Access VPN - Deploying the Remote Access Client |
-| 78 | Lab 67: Remote Access VPN - Enabling Mobile Access |
-| 79 | Lab 68: Remote Access VPN - MEPs & Secondary COnnect |
-| 80 | Lab 69: Layer 2 Tunneling Protocol (L2TP) |
-| 81 | Lab 70: Exploring VPN behind NAT'd Connection |
-| 82 | Lab 71: Troubleshooting Common VPN Issues |
-| **PART 6: QUALITY OF SERVICE (QoS)** |
-| 83 | **Check Point QoS Architecture** |
-| 84 | Lab 72: Configuring the QoS Lab | 
-| 85 | Lab 73: Create a Basic QoS Policy |
-| 86 | Lab 74: Explore Impact QoS has on Traffic Processing |
-| 87 | Lab 75: QoS Guarantees and Limits |
-| 88 | Lab 76: Differentiated Services (DiffServ) |
-| 89 | Lab 77: Low Latency Queueing |
-| 90 | Lab 78: QoS Logging | 
-| 91 | Lab 79: Monitoring QoS Effectiveness |
-| 92 | Lab 80: Verify QoS end-to-end |
-| **PART 7: INFRASTRUCTURE MAINTENANCE** |
-| 93 | **Check Point Configuration Hardening Tips** | 
-| 94 | Lab 81: SSH Passwordless Authentication |
-| 95 | Lab 82: AAA with RADIUS Server (Active Directory) |
-| 96 | Lab 83: AAA with TACACS+ Server (Cisco ISE) |
-| 97 | Lab 84: AAA with LDAP Server (Active Directory) |
-| 98 | Lab 85: Configuring Logging & Syslog Server |
-| 99 | Lab 86: Monitoring with SNMP |
-| 100 | Lab 87: Collecting Data for Check Point Support |
-| 101 | **Check Point Expert Mode** |
-| 102 | Lab 88: Exploring Expert Mode |
-| **PART 8: INFRASTRUCTURE SERVICES**|
-| 103 | **Check Point & Network Address Translation (NAT)** |
-| 104 | Lab 88: Explore Impact NAT has on Traffic Processing |
-| 105 | Lab 89: NAT - Configure Hide NAT |
-| 106 | Lab 90: NAT - Conifgure Static NAT 
-| 107 | **Dynamic Host Configuration Protocol (DHCP)** |
-| 108 | Lab 91: DHCP - Configuration |
-| 109 | Lab 92: DHCP - Relay Agents
-| **PART 9: AUTOMATION & ORCHESTRATION** |
-| 110 | **Check Point Automation Capabilities** |
-| 111 | Lab 93: Configuring the Automation Lab |
-| 112 | Lab 94: Exploring SmartConsole Scripts |
-| 113 | Lab 95: Exploring Management API |
-| 114 | Lab 96: Exploring GAIA API |
-| 115 | **Check Point & Ansible**
-| 115 | Lab 97: Exploring Ansible Check Point Modules |
-| 116 | Lab 98: Orchestrating simple CRUD management operations |
-| 117 | Lab 99: Orchestrating configuration drift detection |
-| **PART 10: TYING IT ALL TOGETHER** |
-| 118 | Lab 100: Challenge Lab 1 |
-| 119 | Lab 101: Challenge Lab 2 | 
-| 120 | Lab 102: Challenge Lab 3 |
-| 121 | Lab 103: Challenge Lab 4 |
-| 122 | Lab 104: Challenge Lab 5 |
-| **PART 11: NEXT STEPS** |
-| 123 | Check Point Training & Certification |
+| **PART 1: GETTING STARTED WITH CHECK POINT** |
+| **Chapter 1** | **Getting Started with Check Point** |
+| Lab 1 | Creating a Check Point Account |
+| **Chapter 2** | **Public Documentation & Community Resources** |
+| Lab 2 | Creating a Check Mates Account |
+| Lab 3 | Getting Help with Secure Knowledge (SK) Articles |
+| **PART 2: CHECK POINT ARCHITECTURE** |
+| **Chapter 3** |**Check Point Architecture** |
+| **Chapter 4** | **Understanding the Control, Data, and Management Planes** |
+| Lab 4 | Provisioning the Lab Environment |
+| Lab 5 | Configure Network Interfaces & Bonding |
+| Lab 6 | Enable Discoverability with LLDP & ICMP RD |
+| Lab 7 | Secure Internal Communications (SIC)
+| **PART 3: UNDERSTANDING TRAFFIC FLOWS** |
+| **Chapter 5** | **How Layer 2 Impacts Security Management** |
+| Lab 8 | Configuring VLANs |
+| Lab 9 | Exploring ARP |
+| Lab 10 | Exploring Suboptimal Traffic Forwarding Due to Layer 2 |
+| **Chapter 6** | **Packet Processing Overview** |
+| Lab 11 | Exploring SecureXL |
+| Lab 12 | Exploring CoreXL |
+| **Chapter 7** | **Packet Capturing Techniques** |
+| Lab 13 | Packet Capturing - TCP Dump |
+| Lab 14 | Packet Capturing - fw mon |
+| Lab 15 | Identify Dropped Connections with Kernel Debug |
+| Lab 16 | Traffic Mirroring & Decryption |
+| Lab 17 | Analysing Traffic with NetFlow |
+| **Chapter 8** | **Check Point VSX Overview** |
+| Lab 18 | Using VSX to Extend a VRF across the Security Layer |
+| **PART 4: DESIGNING FOR REDUNDANCY** |
+| **Chapter 9** | **Virtual Routing Redundancy Protocol (VRRP)** |
+| Lab 19 | VRRP - Basic Configuration & Validation |
+| Lab 20 | VRRP - Authentication |
+| Lab 21 | VRRP - Advanced Topics |
+| **Chapter 10** | **Check Point ClusterXL** |
+| Lab 22 | ClusterXL - High Availability Mode |
+| Lab 23 | ClusterXL - Load Sharing Unicast Mode | 
+| Lab 24 | ClusterXL - Active-Active Mode |
+| **Chapter 11** | **Check Point Maestro** |
+| **PART 5: ROUTING** |
+| **Chapter 12** | **Unicast Routing Protocols & Tools** |
+| Lab 25 | Exploring Limitation of Static Routes |
+| Lab 26 | RIPv1 |
+| Lab 27 | RIPv2 |
+| Lab 28 | OSPF - Single Area Network |
+| Lab 29 | OSPF - Multi Area Network |
+| Lab 30 | OSPF - Area Types and Considerations |
+| Lab 31 | OSPF - Virtual Links and GRE Tunnels |
+| Lab 32 | OSPF - Exploring & Manipulating Path Selection |
+| Lab 33 | OSPF - Authentication Methods |
+| Lab 34 | OSPF - Aggregation |
+| Lab 35 | OSPF - Redistribution |
+| Lab 36 | OSPF - Filtering Techniques |
+| Lab 37 | OSPF - Using the LSDB to Draw Network Diagrams |
+| Lab 38 | BGP - Introduction & Basic Configuration |
+| Lab 39 | BGP - eBGP |
+| Lab 40 | BGP - Route Reflectors | 
+| Lab 41 | BGP - Confederations |
+| Lab 42 | BGP - Route Dampening |
+| Lab 43 | BGP - Aggregation & Filtering |
+| Lab 44 | BGP - IGP Redistribution Considerations |
+| Lab 45 | BGP - TCP MD5 Authentication |
+| Lab 46 | Policy Based Routing |
+| Lab 47 | Bidirection Forwarding Detection (BFD) |
+| **Chapter 13** | **Multicast Routing** |
+| Lab 48 | Multicast - IGMP |
+| Lab 49 | Multicast - PIM Dense Mode |
+| Lab 50 | Multicast - PIM Sparse Mode |
+| Lab 51 | Multicast - PIM Source-Specific Multicast |
+| Lab 52 | Multicast - ClusterXL Multicast Load Sharing |
+| Lab 53 | Check Point - Protocol Ranking / Admin Distance |
+| Lab 54 | Check Point - ECMP |
+| Lab 55 | Check Point - Route Conflict Management |
+| Lab 56 | Check Point - Multithreading the Routing Daemon |
+| Lab 57 | Check Point - Exploring Route Injection Mechanism (RIM) |
+| Lab 58 | Check Point - Logging & Debugging Routing Protocols |
+| Lab 59 | ClusterXL Implications with Dynamic Routing Protocols |
+| **PART 6: VIRTUAL PRIVATE NETWORKS (VPNs)** |
+| **Chapter 14** | **Check Point VPN Architecture & Types** |
+| Lab 60 | Configuring the VPN Lab |
+| Lab 61 | Exploring Impact VPNs have on Traffic Processing |
+| Lab 62 | S2S VPN - Pure Check Point |
+| Lab 63 | S2S VPN - Third Party (Cisco) |
+| Lab 64 | Remote Access VPN - Access Policies |
+| Lab 65 | Remote Access VPN - Hub Mode |
+| Lab 66 | Remote Access VPN - Office Mode |
+| Lab 67 | Remote Access VPN - Deploying the Remote Access Client |
+| Lab 68 | Remote Access VPN - Enabling Mobile Access |
+| Lab 69 | Remote Access VPN - MEPs & Secondary COnnect |
+| Lab 70 | Layer 2 Tunneling Protocol (L2TP) |
+| Lab 71 | Exploring VPN behind NAT'd Connection |
+| Lab 72 | Troubleshooting Common VPN Issues |
+| **PART 7: QUALITY OF SERVICE (QoS)** |
+| **Chapter 15** | **Check Point QoS Architecture** |
+| Lab 73 | Configuring the QoS Lab | 
+| Lab 74 | Create a Basic QoS Policy |
+| Lab 75 | Explore Impact QoS has on Traffic Processing |
+| Lab 76 | QoS Guarantees and Limits |
+| Lab 77 | Differentiated Services (DiffServ) |
+| Lab 78 | Low Latency Queueing |
+| Lab 79 | QoS Logging | 
+| Lab 80 | Monitoring QoS Effectiveness |
+| Lab 81 | Verify QoS end-to-end |
+| **PART 8: INFRASTRUCTURE MAINTENANCE** |
+| **Chapter 16** | **Check Point Configuration Hardening Tips** | 
+| Lab 82 | SSH Passwordless Authentication |
+| Lab 83 | AAA with RADIUS Server (Active Directory) |
+| Lab 84 | AAA with TACACS+ Server (Cisco ISE) |
+| Lab 85 | AAA with LDAP Server (Active Directory) |
+| Lab 86 | Configuring Logging & Syslog Server |
+| Lab 87 | Monitoring with SNMP |
+| Lab 88 | Collecting Data for Check Point Support |
+| **Chapter 17** | **Check Point Expert Mode** |
+| Lab 89 | Exploring Expert Mode |
+| **PART 9: INFRASTRUCTURE SERVICES**|
+| **Chapter 18* | **Check Point & Network Address Translation (NAT)** |
+| Lab 90 | Explore Impact NAT has on Traffic Processing |
+| Lab 91 | Hide NAT |
+| Lab 92 | Static NAT |
+| Lab 93 | NAT Pools |
+| **Chapter 19** | **Dynamic Host Configuration Protocol (DHCP)** |
+| Lab 94 | DHCP Configuration |
+| Lab 95 | DHCP Relay Agents |
+| **PART 10: IPv6** |
+| **Chapter 16** | **IPv6 Overview** |
+| Lab 96 | Configuring the IPv6 Lab |
+| Lab 97 | Enabling IPv6 Static Connectivity |
+| Lab 98 | Creating an IPv6 Access Control Policy |
+| Lab 99 | IPv6 Neighbour Discovery | 
+| Lab 100 | VRRPv3 |
+| **Chapter 17** | **IPv6 Routing Considerations** |
+| Lab 101 | RIPng |
+| Lab 102 | OSPFv3 Overview & Differences |
+| Lab 103 | OSPFv3 IPSec Routing |
+| Lab 104 | OSPFv3 ClusterXL Considerations |
+| Lab 105 | MP-BGP - IPv6 Only |
+| Lab 106 | MP-BGP - IPv4 and IPv6 |
+| Lab 107 | IPv6 Aggregation, Filtering & Redistribution |
+| Lab 108 | Exploring Dual Stack Environments |
+| **PART 11: AUTOMATION & ORCHESTRATION** |
+| **Chapter 22** | **Check Point Automation Capabilities** |
+| Lab 109 | Configuring the Automation Lab |
+| Lab 110 | Exploring SmartConsole Scripts |
+| Lab 111 | Exploring Management API |
+| Lab 112 | Exploring GAIA API |
+| **Chapter 23** | **Check Point & Ansible**
+| Lab 113 | Exploring Ansible Check Point Modules |
+| Lab 114 | Orchestrating simple CRUD management operations |
+| Lab 115 | Orchestrating configuration drift detection |
+| **PART 12: TYING IT ALL TOGETHER** |
+| Lab 116 | Challenge Lab 1 |
+| Lab 117 | Challenge Lab 2 | 
+| Lab 118 | Challenge Lab 3 |
+| Lab 119 | Challenge Lab 4 |
+| Lab 120 | Challenge Lab 5 |
+| **PART 13: NEXT STEPS** |
+| **Chapter 24** | **Check Point Training & Certification** |
 
 <br />
 
