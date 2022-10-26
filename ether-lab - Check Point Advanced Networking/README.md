@@ -118,7 +118,7 @@ TBA
 | Lab 1 | Creating a Check Point Account |
 | **Chapter 2** | **Public Documentation & Community Resources** |
 | Lab 2 | Creating a Check Mates Account |
-| Lab 3 | Getting Help with Secure Knowledge (SK) Articles |
+| Lab 3 | Using the Secure Knowledge (SK) Base |
 | **PART 2: CHECK POINT ARCHITECTURE** |
 | **Chapter 3** |**Check Point Architecture** |
 | **Chapter 4** | **Understanding the Control, Data, and Management Planes** |

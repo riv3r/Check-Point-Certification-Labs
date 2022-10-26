@@ -11,15 +11,14 @@ All lab exercises come directly from Check Point certification and learning docu
 | Check Point Certified Security Administrator (CCSA) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSA_Overview_Flyer.pdf) |
 | Check Point Certified Security Expert (CCSE) R81.10 | [link](https://www.checkpoint.com/downloads/training/CCSE_Overview_Flyer.pdf) |
 | Check Point Certified Automation Specialist (CCAS) | [link](https://www.checkpoint.com/downloads/training/CCAS-R80-x-course-overview.pdf) |
-| Check Point Certified Troubleshooting Administrator (CCTA) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTA-R81.10-V1.0.pdf) |
-| Check Point Certified Troubleshooting Expert (CCTE) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTE-R81.10-V1.0.pdf) |
 | Check Point Certified Cloud Specialist (CCCS) | [link](https://www.checkpoint.com/downloads/training/CCCS-R81-course-overview.pdf) |
+| Check Point Certified Endpoint Specialist (CCES) | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-HarmonyCCES.pdf) |
 | Check Point Cloud Network Security Expert for AWS (CCNE AWS) | [link](https://www.checkpoint.com/downloads/training/CNSE-AWS-R81-Course-Overview_Flyer.pdf) |
 | Check Point Cloud Network Security Expert for Azure (CCNE Azure) | [link](https://www.checkpoint.com/downloads/training/CNSE-Azure-R81-Course-Overview_Flyer.pdf) |
 | Check Point Certified Multi-Domain Security Management Specialist (CCMS) | [link](https://www.checkpoint.com/downloads/training/CCMS-R80-x-course-overview.pdf) |
+| Check Point Certified Troubleshooting Administrator (CCTA) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTA-R81.10-V1.0.pdf) |
+| Check Point Certified Troubleshooting Expert (CCTE) R81.10 | [link](https://www.checkpoint.com/downloads/training/DOC-Training-Data-Sheet-CCTE-R81.10-V1.0.pdf) |
 | Check Point Certified VSX Specialist (CCVS) | [link](https://www.checkpoint.com/downloads/training/CCVS-R80-x-course-overview.pdf) | 
-
-MAESTRO?
 
 <br />
 
